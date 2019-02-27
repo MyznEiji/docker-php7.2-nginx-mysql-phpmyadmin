@@ -21,12 +21,12 @@ $ curl -OL https://github.com/MyznEiji/docker-php7.2-nginx-mysql-phpmyadmin/arch
 
 ## nginx server
 ```
-open http://localhost:8080
+$ open http://localhost:8080
 ```
 
 ## phpmyadmin
 ```
-open http://localhost:8888
+$ open http://localhost:8888
 ```
 
 
@@ -44,7 +44,7 @@ $ mysql -u root -p
 
 ## Connect PHP7.2 container
 ```
-$ docker exec -it ocker-php72-nginx-mysql-phpmyadmin_php_1 /bin/bash
+$ docker exec -it docker-php72-nginx-mysql-phpmyadmin_php_1 /bin/bash
 ```
 
 
