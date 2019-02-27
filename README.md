@@ -7,7 +7,7 @@ localhost:8080/hogehoge.php = docker-php7.2-nginx-mysql-phpmyadmin/www/html/hoge
 
 ## Installation
 ```
-# After docker clone 
+# After git clone 
 $ cd docker-php7.2-nginx-mysql-phpmyadmin && docker-compose up -d
 ```
 
