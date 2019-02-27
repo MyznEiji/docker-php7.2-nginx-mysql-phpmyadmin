@@ -6,9 +6,16 @@ localhost:8080/hogehoge.php = docker-php7.2-nginx-mysql-phpmyadmin/www/html/hoge
 
 
 ## Installation
+
+## git clone
 ```
-# After git clone 
+$ git clone https://github.com/MyznEiji/docker-php7.2-nginx-mysql-phpmyadmin.git
 $ cd docker-php7.2-nginx-mysql-phpmyadmin && docker-compose up -d
+```
+## curl
+[1.0.0 from Release](https://github.com/MyznEiji/docker-php7.2-nginx-mysql-phpmyadmin/releases/tag/1.0.0)
+```
+$ curl -OL https://github.com/MyznEiji/docker-php7.2-nginx-mysql-phpmyadmin/archive/1.0.0.zip && unzip 1.0.0.zip && rm 1.0.0.zip && mv docker-php7.2-nginx-mysql-phpmyadmin-1.0.0 docker-php7.2-nginx-mysql-phpmyadmin && cd docker-php7.2-nginx-mysql-phpmyadmin/ && docker-compose up -d
 ```
 
 
