@@ -44,6 +44,7 @@ $ docker exec -it ocker-php72-nginx-mysql-phpmyadmin_php_1 /bin/bash
 
 ## Usage
 | Command | Result |
+|:-------:|:-------|
 | docker-compose up -d | Create containers on detach mode |
 | docker-compose start | Containers run |
 | docker-compose stop  | Containers stop | 
