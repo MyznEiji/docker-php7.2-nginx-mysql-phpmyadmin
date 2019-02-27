@@ -35,8 +35,16 @@ $ mysql -u root -p
 ![](https://drive.google.com/uc?export=view&id=1bctVVekgWRDOKNgBwti-tEBllUKzjnEo)
 
 
-## Connect PHP7.2 Container
+## Connect PHP7.2 container
 ```
 $ docker exec -it ocker-php72-nginx-mysql-phpmyadmin_php_1 /bin/bash
 ```
 
+
+
+## Usage
+| Command | Result |
+| docker-compose up -d | Create containers on detach mode |
+| docker-compose start | Containers run |
+| docker-compose stop  | Containers stop | 
+| docker-compose down  | Stop container and remove container |
