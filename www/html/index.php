@@ -1,4 +1,2 @@
-hoge
-
 <php
 phpinfo();
